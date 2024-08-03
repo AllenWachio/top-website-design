@@ -9,6 +9,16 @@ body {
     background-color: #1F2937;
     color: #ffffff;
     font-size: 20px;
+    display: block;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    color: #ffffff;
 }
 
 .navigation {
@@ -103,12 +113,26 @@ header {
     text-align: center;
 }
 
+.quote-section .quote-name {
+    text-align: right;
+    margin-top: 20px;
+}
+
 .call-action-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #3882F6;
+    background-color: white;
     padding: 40px 20px;
+}
+
+.call-action-subsection {
+    background-color: blue;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 footer {
