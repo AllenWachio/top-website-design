@@ -1,56 +1,119 @@
 * {
-    color: #ffffff;
     padding: 0;
     margin: 0;
-    font-size: 20px;
-    font-family: 'Verdana', 'Arial','Helvetica','sans-serif';
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Arial', 'Helvetica', 'sans-serif';
 }
+
+body {
+    background-color: #1F2937;
+    color: #ffffff;
+    font-size: 20px;
+}
+
 .navigation {
     display: flex;
     background-color: #1F2937;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
-.navigation .nav-image{
-    width: 100px;
-    height: 30px;
+
+.nav-image {
+    height: 50px;
 }
-.navigation .nav-links{
+
+.nav-links {
     display: flex;
     list-style: none;
-    justify-content: flex-end;
 }
-button {
-    background-color: #3882F6;
-    border-radius: 10px;
-    cursor: pointer;
-    padding: 10px 20px;
-    border: none;
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    max-width: 50%;
+}
+
+.header-content h1 {
+    font-size: 36px;
+}
+
+.header-content p {
+    margin: 20px 0;
+}
+
+.header-image img {
+    width: 300px;
+    height: auto;
+}
+
+.group-tiles {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 #group-header {
     font-size: 24px;
-    color: black;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
 .card {
     display: flex;
-    flex: 1;
+    justify-content: space-around;
 }
 
-.card-featured .card-image {
-    width: auto;
-    height: 200px;
+.card-featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 
-.card-featured .card-description {
-    color: black;
+.card-image {
+    height: 100px;
 }
 
-section {
+.card-description {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.quote-section {
     background-color: #EFE7EB;
+    color: #000000;
+    padding: 40px 20px;
+    text-align: center;
 }
+
+.call-action-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 40px 20px;
+}
+
 footer {
     background-color: #1F2937;
+    color: #ffffff;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
